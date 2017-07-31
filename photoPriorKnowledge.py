@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+#boxplot of photography prior knowledge based on responses from pre-session questionnaire
+
+#data (hard-coded is not ideal, but it is a small set)
 overexposure = [2,1,2,4,4,4,2,1,2,1,5,4,4,2,2,3,1]
 confidence = [1,4,3,3,5,4,4,1,1,1,4,4,2,4,3,3,1]
 frequent = [5,3,3,2,4,2,3,2,1,1,1,3,4,5,2,1,4]
