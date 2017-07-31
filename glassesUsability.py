@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
-import numpy
 import numpy as numpy
 from numpy.ma import arange
 
+#Comparison of all participants likert easiness ratings 
+
 #data setup
-#here, numpy.nan is preferred to 0 or null to keep the chart clean and
-#   works better with floats
+#here, numpy.nan is preferred to 0 or null to keep the chart clean 
 wglasses = [numpy.nan, 3.5, 5, numpy.nan,4,2,3,4,2,2,5,2.5,3,2,2.5,1]
 woglasses = [2,5,3, numpy.nan,4,4,1,4,3,3,3,4,1,5,3,4]
 x = arange(16)
