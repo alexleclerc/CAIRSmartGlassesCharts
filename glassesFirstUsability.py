@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 import numpy
 from numpy.ma import arange
 
+#chart comparing likert easiness responses for with glasses and without, of participants who used the glasses first
+
 #data setup
-#here, numpy.nan is preferred to 0 or null to keep the chart clean
+#numpy.nan is preferred to 0 or null to keep the chart clean
 wglasses = [3.5, 5, 4, 2, 2, 2.5, 2, 1]
 woglasses = [5, 3, 4, 4, 3, 4, 5, 4]
 x = arange(8)
@@ -24,7 +26,4 @@ plt.ylabel('Likert Rating')
 plt.xlabel('Participants')
 plt.title('Participants with Glasses as Second Condition')
 
-
 plt.show()
-
-#plt.savefig('glassesfirst.png')
