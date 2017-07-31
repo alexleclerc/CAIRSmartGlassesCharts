@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+#boxplot of photography prior knowledge based on responses from pre-session questionnaire
+
+#data (hard coded is not ideal, but we have a small sample)
 milkyway = [3,5,5,3,4,5,1,3,4,2,5,2,4,5,1,3,2]
 sevensisters = [1,3,2,1,2,1,1,1,2,1,2,2,1,2,1,1,1]
 nasa = [1,5,4,1,4,3,1,1,1,1,2,1,2,1,1,2,1]
